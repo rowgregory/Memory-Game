@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import "./"
 import CharacterCard from "./components/CharacterCard";
 import characters from "./friends.json";
 import Column from "./components/Column";
@@ -8,73 +7,58 @@ import Wrapper from "./components/Wrapper";
 
 
 class App extends Component {
-  // set the state
   state = {
     characters,
     currentScore: 0,
     topScore: 0,
     rightOrWrong: "",
     clicked:[],
-    
   };
 
   registerClick = id => {
-    
     if (this.state.clicked.indexOf(id) === -1) {
       this.handleIncrement();
       this.setState({ clicked: this.state.clicked.concat(id) });
     }
-    
     else {
     this.resetGame();
     }
-    
   };
 
   shuffleCards = () => {
-    // let unshuffled = ['hello', 'a', 't', 'q', 1, 2, 3, {cats: true}]
-    // let shuffled = unshuffled
-    //   .map((a) => ({sort: Math.random(), value: a}))
-    //   .sort((a, b) => a.sort - b.sort)
-    //   .map((a) => a.value)
     const arr = characters;
     const shuffle = arr.map((a) => ({sort: Math.random(), value:a}))
       .sort((a, b) => a.sort - b.sort)
       .map((a) => a.value)
       console.log(shuffle)
       return shuffle;
-  }
+  };
 
   handleShuffle = () => {
     const shuffledCards = this.shuffleCards(characters);
     console.log(shuffledCards);
     this.setState({characters: shuffledCards});
-  }
+  };
 
   handleIncrement = () => {
-    // console.log('Did we click2?');
     const newScore = this.state.currentScore + 1;
     console.log(newScore);
     this.setState({
       currentScore: newScore,
       rightOrWrong: "Keep going!"
-     
     });
     if (newScore >= this.state.topScore) {
       this.setState({topScore:newScore});
     } 
     if (newScore === 12) {
-      
-      
       this.setState({
         currentScore: 0,
         clicked:[],
         rightOrWrong:'You Won!! Click on any icon to initiate set up!'
       });
     }
-    
     this.handleShuffle()
-  }
+  };
 
   resetGame = () => {
     this.setState({
@@ -83,14 +67,11 @@ class App extends Component {
       rightOrWrong: "Here we go again!",
       clicked: [],
     });
-    
      this.handleShuffle();
-  }
+  };
   
-
   render() {
     return (
-      
       <Wrapper>
        <Navbar
         title="Mario Clicky Game"
@@ -98,9 +79,6 @@ class App extends Component {
         topScore = { this.state.topScore}
         rightOrWrong={this.state.rightOrWrong}
         />
-       
-      
-        
         {this.state.characters.map(character => (
           <Column size="sm-6 md-3">
             <CharacterCard
@@ -114,10 +92,9 @@ class App extends Component {
             />
           </Column>
       ))}
-    
     </Wrapper>
     )
   }
-}
+};
 
 export default App;
