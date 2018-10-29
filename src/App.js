@@ -54,7 +54,7 @@ class App extends Component {
       this.setState({
         currentScore: 0,
         clicked:[],
-        rightOrWrong:'You Won!! Click on any icon to initiate set up!'
+        rightOrWrong:'You Won!! Click on any icon to initiate new game!'
       });
     }
     this.handleShuffle()
