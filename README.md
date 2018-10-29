@@ -16,8 +16,6 @@
 ## Demo Videos
 
  * ![](public/assets/Clicky-Game.gif?raw=true)
-
- * ![]()
  
 ## Technologies Used
 
