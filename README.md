@@ -1,4 +1,4 @@
-# News-Scrape
+# Clicky-Game
 
  * This app is a Mario themed memory game. The object of the game is to not click a card twice or you will start over!
 
