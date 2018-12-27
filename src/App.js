@@ -22,6 +22,7 @@ class App extends Component {
     }
     else {
     this.resetGame();
+    
     }
   };
 
@@ -68,6 +69,7 @@ class App extends Component {
       clicked: [],
     });
      this.handleShuffle();
+     
   };
   
   render() {
