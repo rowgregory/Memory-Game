@@ -76,13 +76,13 @@ class App extends Component {
     return (
       <Wrapper>
        <Navbar
-        title="Mario Clicky Game"
+        title="Mario Memory Game"
         score={ this.state.currentScore}
         topScore = { this.state.topScore}
         rightOrWrong={this.state.rightOrWrong}
         />
         {this.state.characters.map(character => (
-          <Column size="sm-6 md-3">
+          <Column size=" xs-3 sm-3 md-2">
             <CharacterCard
               registerClick = {this.registerClick}
               handleIncrement = {this.handleIncrement}

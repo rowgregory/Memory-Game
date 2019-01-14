@@ -7,3 +7,15 @@ body{
     margin:0;
     padding:0;
 }
+
+@media only screen and (max-width: 414px) {
+    body {
+        background: url(/assets/mobile-bg.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+        margin:0;
+        padding:0;
+    }
+  }

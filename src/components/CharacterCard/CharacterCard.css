@@ -1,9 +1,10 @@
 .card img{
-    width:175px;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width:15vw;
+    display:flex;
+    
+    
     background:rgb(255, 254, 254);
-    margin:40px auto;
+    margin: 50px auto;
     cursor: pointer;
     border: 4px rgb(99, 99, 99) solid;
     border-radius: 2px;
@@ -20,3 +21,5 @@
 .card img:active{
     transform: translate(1px, 1px);
 }
+
+
