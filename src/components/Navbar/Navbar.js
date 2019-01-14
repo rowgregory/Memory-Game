@@ -2,8 +2,8 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = props => (
-    <div class="container">
-        <div class="row">
+    <div className="container">
+        <div className="row">
             <nav>
             <ul>
                 <div id="brand">{props.title}</div>

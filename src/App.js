@@ -80,8 +80,8 @@ class App extends Component {
         topScore = { this.state.topScore}
         rightOrWrong={this.state.rightOrWrong}
         />
-        {this.state.characters.map(character => (
-          <Column size=" xs-3 sm-3 md-3">
+        {this.state.characters.map((character, k) => (
+          <Column key={k} size=" xs-3 sm-3 md-3">
             <CharacterCard
               registerClick = {this.registerClick}
               handleIncrement = {this.handleIncrement}

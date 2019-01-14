@@ -2,7 +2,7 @@ import React from "react";
 import "./CharacterCard.css";
 
 const CharacterCard = props => (
-  <div className="characterCard"
+  <div
     className = "card"
       value = {props.id}
       onClick = { () => props.registerClick(props.id)}
