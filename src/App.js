@@ -46,7 +46,7 @@ class App extends Component {
     console.log(newScore);
     this.setState({
       currentScore: newScore,
-      rightOrWrong: "Keep going!"
+      rightOrWrong: "Correct!"
     });
     if (newScore >= this.state.topScore) {
       this.setState({topScore:newScore});
@@ -65,7 +65,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      rightOrWrong: "Here we go again!",
+      rightOrWrong: "Wrong!",
       clicked: [],
     });
      this.handleShuffle();
@@ -76,13 +76,12 @@ class App extends Component {
     return (
       <Wrapper>
        <Navbar
-        title="Mario Memory Game"
         score={ this.state.currentScore}
         topScore = { this.state.topScore}
         rightOrWrong={this.state.rightOrWrong}
         />
         {this.state.characters.map(character => (
-          <Column size=" xs-3 sm-3 md-2">
+          <Column size=" xs-3 sm-3 md-3">
             <CharacterCard
               registerClick = {this.registerClick}
               handleIncrement = {this.handleIncrement}
