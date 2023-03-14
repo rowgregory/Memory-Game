@@ -8,10 +8,6 @@
  * cd to the repo
  * run yarn install
  * yarn start
-
-## Visit live on heroku
-
- * [Memory Game](https://clickygamegr.herokuapp.com/)
      
 ## Demo Videos
 
