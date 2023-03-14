@@ -1,6 +1,6 @@
-# Clicky-Game
+# Memory-Game
 
- * This app is a Mario themed memory game. The object of the game is to not click a card twice or you will start over!
+ * Click all tiles once in order to win. Click the same tile twice, you lose.
 
 ## Getting Started
 
@@ -11,7 +11,7 @@
 
 ## Visit live on heroku
 
- * [Clicky Game](https://clickygamegr.herokuapp.com/)
+ * [Memory Game](https://clickygamegr.herokuapp.com/)
      
 ## Demo Videos
 
