@@ -1,13 +1,13 @@
 {
-  "main.css": "/Memory-Game/static/css/main.88b561e7.chunk.css",
-  "main.js": "/Memory-Game/static/js/main.4d29df52.chunk.js",
-  "main.js.map": "/Memory-Game/static/js/main.4d29df52.chunk.js.map",
+  "main.css": "/Memory-Game/static/css/main.8eeb2d66.chunk.css",
+  "main.js": "/Memory-Game/static/js/main.d295d439.chunk.js",
+  "main.js.map": "/Memory-Game/static/js/main.d295d439.chunk.js.map",
   "static/js/1.2c235891.chunk.js": "/Memory-Game/static/js/1.2c235891.chunk.js",
   "static/js/1.2c235891.chunk.js.map": "/Memory-Game/static/js/1.2c235891.chunk.js.map",
   "runtime~main.js": "/Memory-Game/static/js/runtime~main.1aa354a3.js",
   "runtime~main.js.map": "/Memory-Game/static/js/runtime~main.1aa354a3.js.map",
-  "static/css/main.88b561e7.chunk.css.map": "/Memory-Game/static/css/main.88b561e7.chunk.css.map",
+  "static/css/main.8eeb2d66.chunk.css.map": "/Memory-Game/static/css/main.8eeb2d66.chunk.css.map",
   "index.html": "/Memory-Game/index.html",
-  "precache-manifest.a3e5c701e387e01217d81afc60230bce.js": "/Memory-Game/precache-manifest.a3e5c701e387e01217d81afc60230bce.js",
+  "precache-manifest.3cceb1205fd35d6a56beb2aa5e37cc6e.js": "/Memory-Game/precache-manifest.3cceb1205fd35d6a56beb2aa5e37cc6e.js",
   "service-worker.js": "/Memory-Game/service-worker.js"
 }
