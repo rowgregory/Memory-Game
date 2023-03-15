@@ -4,14 +4,30 @@ import memoryCards from './memoryCards.';
 import Navbar from './components/Navbar';
 import Wrapper from './components/Wrapper';
 import styled from 'styled-components';
+import DesktopImg from './components/assets/background.jpg';
+import MobileImg from './components/assets/mobile-bg.jpg';
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background-image: url(${MobileImg});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 0;
   @media screen and (min-width: 520px) {
     flex-direction: row;
     height: 100vh;
+    background-image: url(${DesktopImg});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
   }
 `;
 

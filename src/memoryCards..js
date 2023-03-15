@@ -1,51 +1,64 @@
+import Img1 from './components/assets/super-mario.png';
+import Img2 from './components/assets/super-mario2.png';
+import Img3 from './components/assets/carnivorous-plant.png';
+import Img4 from './components/assets/mushroom.png';
+import Img5 from './components/assets/mushroom2.png';
+import Img6 from './components/assets/coins.png';
+import Img7 from './components/assets/game.png';
+import Img8 from './components/assets/mario.png';
+import Img9 from './components/assets/plant.png';
+import Img10 from './components/assets/star.png';
+import Img11 from './components/assets/super-mario-logo.png';
+import Img12 from './components/assets/super-mario3.png';
+
 const memoryCards = () => [
   {
     id: 1,
-    image: './assets/super-mario.png',
+    image: Img1,
   },
   {
     id: 2,
-    image: './assets/super-mario2.png',
+    image: Img2,
   },
   {
     id: 3,
-    image: './assets/carnivorous-plant.png',
+    image: Img3,
   },
   {
     id: 4,
-    image: './assets/mushroom.png',
+    image: Img4,
   },
   {
     id: 5,
-    image: './assets/mushroom2.png',
+    image: Img5,
   },
   {
     id: 6,
-    image: './assets/coins.png',
+    image: Img6,
   },
   {
     id: 7,
-    image: './assets/game.png',
+    image: Img7,
   },
   {
     id: 8,
-    image: './assets/mario.png',
+    image: Img8,
   },
   {
     id: 9,
-    image: './assets/plant.png',
+    image: Img9,
   },
   {
     id: 10,
-    image: './assets/star.png',
+    image: Img10,
   },
   {
     id: 11,
-    image: './assets/super-mario-logo.png',
+    image: Img11,
   },
   {
     id: 12,
-    image: './assets/super-mario3.png',
+    image: Img12,
   },
 ];
 
