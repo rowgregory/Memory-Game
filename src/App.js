@@ -35,7 +35,6 @@ const ReadyToPlayBtn = styled.div`
   :active {
     transform: translateY(10px);
   }
-  margin: auto;
 `;
 
 const App = () => {
